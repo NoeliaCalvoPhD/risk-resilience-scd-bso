@@ -1,0 +1,45 @@
+# Multivariate and Neuroimaging Analysis
+
+This repository contains code for two analytical approaches:
+
+1. **Multiple Factor Analysis (MFA)** in R
+2. **Voxel-Based Morphometry (VBM)** using CAT12/SPM in MATLAB
+
+## Structure
+
+scripts/
+  01_imputation.R
+  02_mfa_analysis.R
+  03_mfa_visualization.R
+  vbm_analysis.m
+
+data/
+  raw/
+  processed/
+
+results/
+  figures/
+  tables/
+
+## Reproducibility
+
+R packages:
+
+- mice
+- FactoMineR
+- factoextra
+- dplyr
+
+MATLAB toolboxes:
+
+- SPM12
+- CAT12
+
+## Running the pipeline
+
+### R analysis
+
+```r
+source("scripts/01_imputation.R")
+source("scripts/02_mfa_analysis.R")
+source("scripts/03_mfa_visualization.R")
