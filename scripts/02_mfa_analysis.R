@@ -14,7 +14,7 @@ res.mfa <- MFA(
   data,
   group = c(4, 3, 7),
   type = c("c", "s", "s"),
-  name.group = c("Group", "Multilingualism", "Health"),
+  name.group = c("Demo", "Neuropsychology", "Health"),
   graph = FALSE
 )
 
