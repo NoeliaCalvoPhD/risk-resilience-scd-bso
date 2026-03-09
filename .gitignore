@@ -1,0 +1,26 @@
+# Ignore data files (e.g., raw and processed data)
+data/
+*.csv
+*.xlsx
+*.rds
+
+# Ignore results (figures, tables, output)
+results/
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore RStudio and R-specific temporary files
+.Rhistory
+.RData
+.Rproj.user
+
+# Ignore renv (if using R environment for package management)
+renv/
+
+
+
+
+
+
+
